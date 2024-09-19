@@ -1,7 +1,7 @@
 :root {
   --color-white: #fff;
   --color-black: #000;
-  --content-width: 1200px;
+  --content-width: 1440px;
   --container-padding: 15px;
   --container-width: calc(var(--content-width) + (var(--container-padding) * 2));
   --font-size: 16px;
@@ -59,4 +59,44 @@
   .container {
     background-color: red;
   }
+}
+
+.header {
+  width: 100%;
+  padding-top: 46px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__language {
+  display: flex;
+  gap: 10px;
+  color: #E0E1E3;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar__menu {
+  display: flex;
+  gap: 55px;
+  align-items: center;
+  list-style: none;
+}
+.navbar__menu-link {
+  color: #E0E1E3;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+}
+.navbar__phone {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  margin-left: 159px;
 }/*# sourceMappingURL=main-style.min.css.map */

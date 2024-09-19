@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    
+    &__menu{
+        display: flex;
+        gap: 55px;
+        align-items: center;
+        list-style: none;
+        &-link{
+           color: #E0E1E3;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.94px;
+
+
+        }
+    }
+    &__phone{
+        display: flex;
+        align-items: center;
+        gap: 65px;
+        margin-left: 159px;
+        
+    }
+}

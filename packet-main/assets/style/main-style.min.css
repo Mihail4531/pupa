@@ -40,7 +40,7 @@
 }
 .application {
   width: 100%;
-  background-color: var(--color-black);
+  background-color: #191C27;
   color: var(--color-white);
   font-family: var(--font-family);
   font-weight: 400;
@@ -99,4 +99,48 @@
   align-items: center;
   gap: 65px;
   margin-left: 159px;
+}
+
+.welcome {
+  width: 100%;
+  background: url(/assets/img/Group.png) no-repeat center center;
+  height: 1200px;
+  padding-top: 150px;
+}
+.welcome__container {
+  display: flex;
+  align-items: center;
+}
+.welcome__descript {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.welcome__descript-left {
+  margin-left: 380px;
+}
+.welcome__descript-img {
+  position: absolute;
+  left: -100px;
+}
+.welcome__descript-text {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.welcome__descript-span {
+  font-size: 95px;
+  font-weight: 600;
+  color: #B21414;
+  margin: 0;
+  padding: 0;
+}
+.welcome__descript-title {
+  color: #E0E1E3;
+  font-size: 140px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main-style.min.css.map */

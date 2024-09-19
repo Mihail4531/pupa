@@ -1,17 +1,70 @@
 .Advantage{
     width: 100%;
-    padding-top: 145px;
+    padding-top: 100px;
     &__block{
         display: flex;
         justify-content: space-between;
+       margin: 0;
+       padding: 0;
+       position: relative;
+       &-img{
+        position: absolute;
+        left: -100px;
+       }
+       &-right{
+       
+       }
+        &-link{
+            background: #B2141466;
+            color: white;
+            padding: 10px 16px 10px 16px;
+            border-radius: 30px;
+          
+
+font-size: 30px;
+font-weight: 400;
+margin: 0;
+
+
+        }
+        &-one{
+           
+            display: flex;
+            gap: 30px;
+        margin: 0;
+            padding: 0;
+        }
+        &-two{
+           
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 0;
+            
+        }
+        &-three{
+           
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 0;
+        }
+        &-four{
+           
+            display: flex;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 0;
+        }
         &-text{
            
 font-family: Montserrat;
 font-size: 30px;
 font-weight: 400;
 line-height: 43.5px;
-
-
+width: 100%;
+margin: 0;
+padding: 0;
         }
     }
 }

@@ -1,19 +1,21 @@
 .welcome{
     width: 100%;
     background: url(/assets/img/Group.png) no-repeat center center;
-    height: 1200px;
+    height: 1000px;
    padding-top: 150px;
 
    &__container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
    }
    &__descript{
     position: relative;
     margin: 0;
     padding: 0;
     &-left{
-        margin-left: 380px;
+       
+        
     }
     &-img{
         position: absolute;

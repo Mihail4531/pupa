@@ -104,20 +104,18 @@
 .welcome {
   width: 100%;
   background: url(/assets/img/Group.png) no-repeat center center;
-  height: 1200px;
+  height: 1000px;
   padding-top: 150px;
 }
 .welcome__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .welcome__descript {
   position: relative;
   margin: 0;
   padding: 0;
-}
-.welcome__descript-left {
-  margin-left: 380px;
 }
 .welcome__descript-img {
   position: absolute;
@@ -143,4 +141,19 @@
   font-weight: 600;
   margin: 0;
   padding: 0;
+}
+
+.Advantage {
+  width: 100%;
+  padding-top: 145px;
+}
+.Advantage__block {
+  display: flex;
+  justify-content: space-between;
+}
+.Advantage__block-text {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 43.5px;
 }/*# sourceMappingURL=main-style.min.css.map */

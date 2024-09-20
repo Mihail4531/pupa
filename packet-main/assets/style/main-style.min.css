@@ -205,6 +205,7 @@
 .fouro {
   width: 100%;
   padding-top: 250px;
+  padding-bottom: 300px;
 }
 .fouro__content {
   position: relative;
@@ -232,4 +233,38 @@
   border-radius: 100px;
   font-size: 18px;
   font-weight: 500;
+}
+
+.site {
+  padding-top: 250px;
+  width: 100%;
+}
+.site__content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.site__content-imga {
+  position: absolute;
+  left: -100px;
+}
+.site__content-link {
+  padding: 16px 35px 16px 35px;
+  background: #B21414;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.site__content-text {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 88px;
+}
+.site__content-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.site__content-descript {
+  margin-top: 88px;
 }/*# sourceMappingURL=main-style.min.css.map */

@@ -1,0 +1,41 @@
+.site{
+    padding-top: 250px;
+    width: 100%;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        &-imga{
+            position: absolute;
+            left: -100px;
+        }
+        &-link{
+            padding: 16px 35px 16px 35px;
+            background: #B21414;
+            border-radius: 100px;
+      
+    font-size: 18px;
+    font-weight: 500;
+    
+    
+        }
+        &-text{
+margin-top: 60px;
+font-size: 30px;
+font-weight: 400;
+margin-bottom: 88px;
+
+        }
+        &-title{
+
+font-size: 50px;
+font-weight: 600;
+
+
+        }
+        &-descript{
+            margin-top: 88px;
+           
+        }
+    }
+}

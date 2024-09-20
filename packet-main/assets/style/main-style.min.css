@@ -164,6 +164,7 @@
   color: white;
   padding: 10px 16px 10px 16px;
   border-radius: 30px;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
   font-size: 30px;
   font-weight: 400;
   margin: 0;
@@ -231,6 +232,7 @@
   padding: 16px 35px 16px 35px;
   background: #B21414;
   border-radius: 100px;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
   font-size: 18px;
   font-weight: 500;
 }
@@ -253,6 +255,7 @@
   padding: 16px 35px 16px 35px;
   background: #B21414;
   border-radius: 100px;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
   font-size: 18px;
   font-weight: 500;
 }
@@ -300,6 +303,7 @@
   padding: 16px 35px 16px 35px;
   background: #B21414;
   border-radius: 100px;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
   font-size: 18px;
   font-weight: 500;
 }
@@ -329,6 +333,7 @@
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
 }
 .info__content-text {
   font-size: 16px;
@@ -391,6 +396,10 @@
   padding: 0;
 }
 
+.reviews {
+  width: 100%;
+  padding-bottom: 150px;
+}
 .reviews__block {
   display: flex;
   gap: 20px;
@@ -429,4 +438,61 @@
   padding: 40px 35px;
   background-color: #E0E1E3;
   border-radius: 20px;
+}
+
+.connection {
+  width: 100%;
+  background-color: black;
+  padding-top: 150px;
+}
+.connection__title {
+  font-size: 50px;
+  font-weight: 500;
+  color: #E0E1E3;
+}
+.connection__block {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.connection__block-img {
+  padding: 0;
+  margin: 0;
+  width: 700px;
+}
+.connection__content {
+  margin-top: 35px;
+}
+.connection__content-link {
+  padding: 16px 35px 16px 35px;
+  background-color: #B21414;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 35px;
+  box-shadow: 0px 0px 4px 7px rgba(178, 20, 20, 0.4509803922);
+}
+.connection__content-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #E0E0E0;
+}
+.connection__content-bot {
+  margin-top: 16px;
+}
+.connection__content-comment {
+  border-radius: 6px;
+  padding: 22px 467px 127px 25px;
+}
+.connection__content-top {
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  display: flex;
+}
+.connection__content-name {
+  padding: 10px 35px 10px 25px;
+  border-radius: 6px;
+  margin: 0;
+  display: flex;
 }/*# sourceMappingURL=main-style.min.css.map */

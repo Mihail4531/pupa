@@ -307,6 +307,7 @@
 .info {
   width: 100%;
   padding-top: 250px;
+  padding-bottom: 300px;
 }
 .info__content {
   position: relative;
@@ -360,4 +361,32 @@
 .info__content-list:hover {
   border-bottom: 1px solid #B21414;
   border-top: 1px solid #B21414;
+}
+
+.client {
+  width: 100%;
+  padding-bottom: 300px;
+}
+.client__title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.client__content {
+  padding: 0;
+  position: relative;
+}
+.client__content-imag {
+  position: absolute;
+  left: -100px;
+}
+.client__content-img {
+  margin-top: 100px;
+  padding: 0;
+}
+.client__content-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 400px;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=main-style.min.css.map */

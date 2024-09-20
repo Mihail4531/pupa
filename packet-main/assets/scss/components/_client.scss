@@ -1,0 +1,33 @@
+.client{
+    width: 100%;
+    padding-bottom: 300px;
+   &__title{
+
+font-size: 50px;
+font-weight: 600;
+
+
+   }
+   &__content{
+    
+    padding: 0;
+    position: relative;
+    &-imag{
+        position: absolute;
+        left: -100px;
+    }
+    &-img{
+        margin-top: 100px;
+        padding: 0;
+    }
+    
+&-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   gap: 400px;
+   margin: 0;
+   padding: 0;
+   
+}
+   }
+}

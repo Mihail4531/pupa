@@ -146,6 +146,7 @@
 .Advantage {
   width: 100%;
   padding-top: 100px;
+  padding-bottom: 300px;
 }
 .Advantage__block {
   display: flex;
@@ -199,4 +200,36 @@
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.fouro {
+  width: 100%;
+  padding-top: 250px;
+}
+.fouro__content {
+  position: relative;
+}
+.fouro__content-img {
+  position: absolute;
+  left: -100px;
+}
+.fouro__content-title {
+  font-size: 50px;
+  font-weight: 600;
+}
+.fouro__content-span {
+  color: #B21414;
+}
+.fouro__content-text {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 60px;
+}
+.fouro__content-link {
+  padding: 16px 35px 16px 35px;
+  background: #B21414;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 500;
 }/*# sourceMappingURL=main-style.min.css.map */

@@ -2,13 +2,12 @@
     width: 100%;
     background-color: black;
     padding-top: 150px;
-    &__title{
-        
-        font-size: 50px;
-        font-weight: 500;
-        color: #E0E1E3;
-        
-            }
+    &__container{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+    
     &__block{
         display: flex;
         padding: 0;
@@ -25,6 +24,13 @@
 
     &__content{
         margin-top: 35px;
+        &-title{
+        
+            font-size: 50px;
+            font-weight: 500;
+            color: hsl(220, 5%, 88%);
+            
+                }
         &-link{
             padding: 16px 35px 16px 35px;
             background-color: #B21414;

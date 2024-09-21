@@ -21,7 +21,7 @@
                     <span class="header__language">IT</span>
                     <span class="header__language">EN</span>
                 </div>
-                <nav class="header__navbar navbar">
+                <nav class="header__navbar navbar" id="nav">
                     <menu class="navbar__menu">
                         <li class="navbar__menu-item"><a href="" class="navbar__menu-link">Услуги</a></li>
                         <li class="navbar__menu-item"><a href="" class="navbar__menu-link">Кейсы</a></li>
@@ -35,6 +35,9 @@
                     </div>
                     
                 </nav>
+                <button class="header__button" id="open">
+                    <i class='bx bx-menu'></i>
+                </button>
             </div>
         </header>
         <main class="application__main main" id="main">
@@ -295,4 +298,13 @@
         </footer>
     </div>
 </body>
+<script>
+    console.log('ok');
+let nav = document.getElementById("nav"),
+    button = document.getElementById("open")
+
+    button.addEventListener("click", () => {
+      nav.classList.toggle('navbar--active')
+    })
+</script>
 </html>

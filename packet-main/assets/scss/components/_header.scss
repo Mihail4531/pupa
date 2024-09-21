@@ -1,19 +1,67 @@
 .header{
     width: 100%;
     padding-top: 46px;
+    &__logo{
+        z-index: 100000;
+    }
+    &__button{
+        display: none;
+        @include lg{
+            padding: 10px 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 20%;
+            border: none;
+            color: #fff;
+           
+            background-color: #9c0707;
+            z-index: 10000;
+            animation: flicker 1.5s infinite alternate;
+            color: #fff;
+           
+            
+        }
+        @keyframes flicker {
+    
+            0%, 18%, 22%, 25%, 53%, 57%, 100% {
+          
+                box-shadow:
+                0 0 4px #fff,
+                0 0 20px #c01111,
+                0 0 5px #3f0404,
+                0 0 4px red,
+                0 0 8px red,
+                0 0 9px red,
+                0 0 10px red,
+                0 0 20px rgb(75, 4, 4);
+            
+            }
+            
+            20%, 24%, 55% {        
+                box-shadow: none;
+            }    
+          }
+    }
    
     &__container{
        display: flex;
        align-items: center;
        justify-content: space-between;
+       
     }
     &__language{
         display: flex;
+        align-items: center;
         gap: 10px;
         color: #E0E1E3;
-     
+     padding: 0;
+     margin: 0;
 font-size: 20px;
 font-weight: 400;
+@include xxxl{
+    font-size: 16px;
+}
 
 
     }

@@ -2,12 +2,22 @@
     width: 100%;
     padding-top: 100px;
     padding-bottom: 300px;
+    @include xxxl{
+        padding-bottom: 0;
+    }
     &__block{
         display: flex;
         justify-content: space-between;
        margin: 0;
        padding: 0;
        position: relative;
+       @include md{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+       }
        &-img{
         position: absolute;
         left: -100px;
@@ -21,7 +31,14 @@
             padding: 10px 16px 10px 16px;
             border-radius: 30px;
             box-shadow: 0px 0px 4px 7px #B2141473; 
-          
+          @include xxxl{
+            padding: 5px 12px 5px 12px;
+            font-size: 20px;
+          }
+          @include md{
+            padding: 3px 8px 3px 8px;
+            font-size: 15px;
+          }
 
 font-size: 30px;
 font-weight: 400;
@@ -67,6 +84,12 @@ line-height: 43.5px;
 width: 100%;
 margin: 0;
 padding: 0;
+@include xxxl{
+    font-size: 30px;
+}
+@include md{
+    font-size: 20px;
+}
         }
     }
 }

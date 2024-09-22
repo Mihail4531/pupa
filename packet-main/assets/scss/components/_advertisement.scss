@@ -1,11 +1,30 @@
 .advertisement{
     padding-top: 250px;
     padding-bottom: 300px;
+    @include xxxl{
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
     &__content{
        position: relative;
+      
+       &-link{
+        padding: 16px 35px 16px 35px;
+        background: #B21414;
+        border-radius: 100px;
+        box-shadow: 0px 0px 4px 7px #B2141473; 
+  
+font-size: 18px;
+font-weight: 500;
+
+    }
+       
         &-img{
           position: absolute;
           left: 100px;
+         @include xxxl{
+            display: none;
+         }
         }
     &-title{
 
@@ -14,6 +33,15 @@ font-weight: 600;
 line-height: 1.4;
 margin: 0;
 padding: 0;
+@include xxxl{
+    font-size: 45px;
+   
+}
+
+@include md{
+    font-size: 35px;
+}
+
     }
     
     &-text{
@@ -23,17 +51,15 @@ font-size: 30px;
 font-weight: 400;
 line-height: 1.2;
 margin-bottom: 60px;
+@include xxxl{
+    font-size: 25px;
+   
+}
+@include md{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
     }
-    &-link{
-        padding: 16px 35px 16px 35px;
-        background: #B21414;
-        border-radius: 100px;
-        box-shadow: 0px 0px 4px 7px #B2141473; 
-  
-font-size: 18px;
-font-weight: 500;
-
-
-    }
+ 
 }
 }

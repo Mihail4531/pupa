@@ -2,16 +2,27 @@
     width: 100%;
     padding-top: 250px;
     padding-bottom: 300px;
+    @include xxxl{
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
     &__content{
+        
         &-imag{
             position: absolute;
             left: -100px;
+            @include xxxl{
+                display: none;
+            }
         }
         position: relative;
         &-image{
             position: absolute;
             right: 330px;
             top: -10px;
+            @include xxxl{
+                display: none;
+            }
         }
         &-link{
             padding: 16px 35px 16px 35px;
@@ -22,13 +33,19 @@
     font-size: 18px;
     font-weight: 500;
     box-shadow: 0px 0px 4px 7px #B2141473; 
-    
+   
     
         }
         &-text{
 
 font-size: 16px;
 font-weight: 500;
+@include xxxl{
+    font-size: 14px;
+}
+@include md{
+    font-size: 12px;
+}
 &:hover{
     color: #B21414;
 }
@@ -38,6 +55,12 @@ font-weight: 500;
 text-transform: uppercase;
 font-size: 22px;
 font-weight: 600;
+@include xxxl{
+font-size: 18px;
+}
+@include md{
+    font-size: 16px;
+}
 &:hover{
     color: #B21414;
 }
@@ -59,6 +82,7 @@ font-weight: 600;
                 border-bottom: 1px solid #B21414;
                 border-top: 1px solid #B21414;
             }
+            
         }
     }
 }
